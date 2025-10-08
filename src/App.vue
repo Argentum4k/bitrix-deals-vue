@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { NLayout, NLayoutHeader, NLayoutContent, NDataTable } from "naive-ui";
-import { getBitrixAuth, callRest } from "./bitrix.js";
+import { callRest } from "./bitrix.js";
 import { BX24 } from 'bx24';
 const bx24 = new BX24(window, parent);
 // bx24.getAuth().then(function(auth) {   console. log(auth); });
